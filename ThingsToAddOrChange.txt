@@ -21,6 +21,7 @@ Things To Change
 2. Re-anchor the Facts Sheet so that it gets a bit bigger
 3. Destroy things that get sucked into the middle of the sun
 4. Re-anchor the player start panel to be a bit smaller  -- Done
+5. Move the TimeScale UI onto it's own panel, which can be "pulled up" from the bottom of the screen to show it when desired.
 
 
 Things to Fix
