@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9daa7d5f734bb4ea32079b9360e157, type: 3}
+  m_Name: Planet_Neptune
+  m_EditorClassIdentifier: 
+  planetName: Neptune
+  planetImage: {fileID: 21300000, guid: 286b458edd3f44d449fecba2c204edd9, type: 3}
+  orbitalPeriod: 60182
+  planetMass: 1.0244e+26
+  planetGravity: 11
+  meanDistanceFromSun: 4498252900
+  population: 0

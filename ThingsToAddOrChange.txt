@@ -1,0 +1,29 @@
+Try to resolve initial buggy movement by...
+
+1. A boolean in fixed update that is set to true to begin simulating after a second
+2. Set timeScale to 0 and use WaitForRealTime to wait for a second, to set it to 1.
+3. Set timeScale to 0 and wait for player input to start simulating.    -- Done, waits for player input
+
+
+Things To Add
+1. When spawning planet, a line from the mouse to the spawned-but-not-released planet.  -- Done
+2. An estimated trajectory of the spawned-but-not-released planet in the direction of the force that will be applied
+3. Some way of editing details of a celestial body that will be spawned on next right click
+	3a. Perhaps another panel of UI in the top right that has a selection of different sizes of planets? 
+		3b. Which on mouse hover will reveal details of said planet
+4. Spawn a copy of an established planet.   -- Done
+5. Highlight (Change color) of selected planets trail -- Done
+6. Give spawned bodies their own detail window (With unknown values)
+
+
+Things To Change
+1. Have the length of a planets trail be affected by their current velocity/size/mass  -- Done
+2. Re-anchor the Facts Sheet so that it gets a bit bigger
+3. Destroy things that get sucked into the middle of the sun
+4. Re-anchor the player start panel to be a bit smaller  -- Done
+
+
+Things to Fix
+1. The clamping on the Camera bounds   - Fixed
+2. Clicking on the Time Slider should not deselect the planet -- Done
+3. Fix the Camera moving super fast when the timeScale is super fast
